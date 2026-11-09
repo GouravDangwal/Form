@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Amity University Educational IT Training Academy admission form">
+    <title>Admission Form | Amity University</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main class="page-shell full-width-page">
+        <header class="site-header">
+            <a class="brand" href="#top" aria-label="Amity University home">
+                <span class="brand-mark"><img src="./Amity.png" alt="Amity University logo"></span>
+                <span class="brand-copy"><strong>Amity University</strong><span>Educational IT Training Academy</span></span>
+            </a>
+            <div class="header-meta"><span class="status-dot" aria-hidden="true"></span><span>Admissions open</span></div>
+        </header>
+
+        <section class="intro" id="top">
+            <div><p class="eyebrow">Student admissions · 2024–25</p><h1>Begin your next chapter.</h1><p class="intro-copy">Complete your application in a few simple steps. Your information is kept secure and used only for admission purposes.</p></div>
+            <div class="progress-card" aria-label="Form progress"><div class="progress-heading"><span>Application progress</span><strong>1 of 3</strong></div><div class="progress-track"><span></span></div><p>Basic information</p></div>
+        </section>
+
+        <div class="content-layout">
+            <aside class="steps-panel" aria-label="Application steps">
+                <p class="steps-label">Your application</p>
+                <ol class="steps-list">
+                    <li class="step is-active"><span class="step-number">01</span><span><strong>Basic information</strong><small>Personal details</small></span></li>
+                    <li class="step"><span class="step-number">02</span><span><strong>Contact details</strong><small>How we can reach you</small></span></li>
+                    <li class="step"><span class="step-number">03</span><span><strong>Course selection</strong><small>Choose your programme</small></span></li>
+                </ol>
+                <div class="help-card"><span class="help-icon" aria-hidden="true">?</span><div><strong>Need help?</strong><p>Our admissions team is happy to help.</p><a href="mailto:admissions@example.edu">Contact support</a></div></div>
+            </aside>
+
+            <form class="form-card" action="#" method="post">
+                <div class="form-heading"><div><p class="section-kicker">Step 01</p><h2>Tell us about yourself</h2><p>Fields marked with <span aria-hidden="true">*</span> are required.</p></div><span class="secure-label"><span aria-hidden="true">⌁</span> Secure form</span></div>
+
+                <fieldset>
+
+                    <legend>Personal details</legend>
+                    <div class="field-grid">
+                       
+                        <div class="field-group"><label for="student-name">Student's name <span>*</span></label><input id="student-name" name="student-name" type="text" placeholder="Enter full name" autocomplete="name" required></div>
+                        <div class="field-group"><label for="birth-date">Date of birth <span>*</span></label><input id="birth-date" name="birth-date" type="date" required></div>
+                        <div class="field-group"><label for="father-name">Father's name</label><input id="father-name" name="father-name" type="text" placeholder="Enter father's name"></div>
+                        <div class="field-group"><label for="mother-name">Mother's name</label><input id="mother-name" name="mother-name" type="text" placeholder="Enter mother's name"></div>
+                        <div class="field-group"><label for="gender">Gender <span>*</span></label><select id="gender" name="gender" required><option value="" selected disabled>Select gender</option><option value="male">Male</option><option value="female">Female</option><option value="other">Prefer not to say</option></select></div>
+                        <div class="field-group"><label for="blood-group">Blood group</label><select id="blood-group" name="blood-group"><option value="" selected disabled>Select blood group</option><option>A+</option><option>A−</option><option>B+</option><option>B−</option><option>AB+</option><option>AB−</option><option>O+</option><option>O−</option></select></div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Permanent address</legend>
+                    <div class="field-grid">
+                        <div class="field-group"><label for="division">Division <span>*</span></label><input id="division" name="division" type="text" placeholder="Enter division" required></div>
+                        <div class="field-group"><label for="district">District <span>*</span></label><input id="district" name="district" type="text" placeholder="Enter district" required></div>
+                        <div class="field-group full-width"><label for="address">Street address <span>*</span></label><textarea id="address" name="address" rows="3" placeholder="House number, street and area" required></textarea></div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Contact &amp; course</legend>
+                    <div class="field-grid">
+                        <div class="field-group"><label for="phone">Phone number <span>*</span></label><input id="phone" name="phone" type="tel" placeholder="+91 00000 00000" autocomplete="tel" required></div>
+                        <div class="field-group"><label for="email">Email address <span>*</span></label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required></div>
+                        <div class="field-group"><label for="religion">Religion</label><input id="religion" name="religion" type="text" placeholder="Enter religion"></div>
+                        <div class="field-group"><label for="nationality">Nationality</label><input id="nationality" name="nationality" type="text" placeholder="Enter nationality" value="Indian"></div>
+                        <div class="field-group full-width"><label for="course">Course name <span>*</span></label><select id="course" name="course" required><option value="" selected disabled>Select a course</option><option>Diploma in Information Technology</option><option>Certificate in Web Development</option><option>Advanced Computer Applications</option></select></div>
+                    </div>
+                </fieldset>
+
+                <div class="form-footer"><p>By submitting, you agree to our admissions terms.</p><button class="submit-button" type="submit">Submit application <span aria-hidden="true">→</span></button></div>
+            </form>
+        </div>
+        <footer class="page-footer"><span>© 2024 Amity University</span><span>Questions? <a href="mailto:admissions@example.edu">admissions@example.edu</a></span></footer>
+    </main>
+</body>
+</html>
